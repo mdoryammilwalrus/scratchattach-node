@@ -25,8 +25,8 @@
 
           {% if site.show_downloads %}
             <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
+              <a class="download_encoder" href="{{ site.download.encoder_url }}">Download the encoder sprite</a>
+              <a class="download_cloud_requests_template" href="{{ site.download.cloud_requests_template_url }}">Download the cloud requests project template</a>
             </section>
           {% endif %}
         </header>
@@ -42,9 +42,6 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
