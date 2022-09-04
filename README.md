@@ -10,8 +10,37 @@ The project was made by TimMcCool for Python and ported to NodeJS by me
 
 # Installation
 
-Run the following command in your command prompt
-/ shell:
+Run the following command in your command prompt / shell:
 ```
 npm install github:mdoryammilwalrus/scratchattach-node
+```
+
+# Logging in  `scratch3.Session`
+
+**Logging in with username / password:**
+
+```js
+const scratch3 = require('scratchattach-node')
+session = scratch3.login("username", "password")
+```
+
+`login()` returns a `Session` object that saves your login
+
+**Logging in with a sessionId:**
+*You can get your session id from your browser's cookies. [More information](about:blank)*
+
+```js
+const scratch3 = require('scratchattach-node')
+session = scratch3.Session("sessionId", username="username")
+```
+
+**Attributes:**
+```js
+session_id // Returns the associated session id
+session.['user']['token'] // xtoken
+session.['user']['username'] // Returns the username of the account
+session.['user']['email'] // Returns the email address associated with the account
+session.['user']['banned'] // Returns True if the associated account is banned
+session.['permissions']['new_scratcher'] // Returns True if the associated account is a New Scratcher
+session.['permissions']['mute_status']
 ```
