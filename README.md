@@ -41,7 +41,7 @@ session = scratch3.login("username", "password")
 
 ```js
 const scratch3 = require('scratchattach-node')
-session = scratch3.Session("sessionId", username="username")
+session = scratch3.Session("sessionId", "username")
 ```
 
 **Attributes:**
