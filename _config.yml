@@ -2,4 +2,7 @@
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme
-show_downloads: false
+
+download:
+  encoder_url: https://github.com/mdoryammilwalrus/scratchattach-node/raw/main/assets/Encoder.sprite3
+  cloud_requests_template_url: https://github.com/mdoryammilwalrus/scratchattach-node/raw/main/assets/CloudRequests_Template.sb3
