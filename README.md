@@ -4,7 +4,7 @@ This library can set cloud variables, follow Scratchers, post comments and do so
 
 **Some functions require logging in to Scratch.**
 **You also need to have NodeJS installed on your device.**
-*Download NodeJS here if you don't have it: https://nodejs.org*
+*Download NodeJS here if you don't have it: [https://nodejs.org](https://nodejs.org)*
 
 The project was made by TimMcCool for Python and ported to NodeJS by me
 
@@ -44,3 +44,6 @@ session.['user']['banned'] // Returns True if the associated account is banned
 session.['permissions']['new_scratcher'] // Returns True if the associated account is a New Scratcher
 session.['permissions']['mute_status']
 ```
+
+# Cloud variables  `scratch3.CloudConnection`
+*Make sure you're using the latest scratchattach version. Scratchattach will tell you in the console if there is a update. Update scratchattach with `npm update scratchattach-node`*
