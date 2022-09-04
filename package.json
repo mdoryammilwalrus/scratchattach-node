@@ -1,0 +1,19 @@
+{
+  "name": "scratchattach-node",
+  "version": "0.9.5",
+  "description": "A Scratch API Wrapper for scratch.mit.edu - ported to NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdoryammilwalrus/scratchattach-node.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/mdoryammilwalrus/scratchattach-node/issues"
+  },
+  "homepage": "https://github.com/mdoryammilwalrus/scratchattach-node#readme"
+}
