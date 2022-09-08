@@ -16,7 +16,7 @@ This library can set cloud variables, follow Scratchers, post comments and do so
 **You also need to have NodeJS installed on your device.**
 *Download NodeJS here if you don't have it: [nodejs.org](https://nodejs.org)*
 
-The project was made by TimMcCool for Python and ported to NodeJS by me
+The project was made by [TimMcCool](https://github.com/TimMcCool) for Python and ported to NodeJS by [me](https://github.com/mdoryammilwalrus)
 
 # Installation
 
