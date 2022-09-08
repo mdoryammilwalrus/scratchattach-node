@@ -37,7 +37,7 @@ session = scratch3.login("username", "password")
 `login()` returns a `Session` object that saves your login
 
 **Logging in with a sessionId:**
-*You can get your session id from your browser's cookies. [More information](about:blank)*
+*You can get your session id from your browser's cookies. [More information](#get-your-session-id)*
 
 ```js
 const scratch3 = require('scratchattach-node')
@@ -46,19 +46,17 @@ session = scratch3.Session("sessionId", "username")
 
 **Attributes:**
 ```js
-session_id // Returns the associated session id
-session.['user']['token'] // xtoken
-session.['user']['username'] // Returns the username of the account
-session.['user']['email'] // Returns the email address associated with the account
-session.['user']['banned'] // Returns True if the associated account is banned
-session.['permissions']['new_scratcher'] // Returns True if the associated account is a New Scratcher
-session.['permissions']['mute_status']
+session.session_id // Returns the associated session id
+session.xtoken // xtoken
+session.username // Returns the username of the account
+session.email // Returns the email address associated with the account
+session.banned // Returns True if the associated account is banned
+session.new_scratcher // Returns True if the associated account is a New Scratcher
+session.mute_status
 ```
 
 # Cloud variables  `scratch3.CloudConnection`
 *Make sure you're using the latest scratchattach version. Scratchattach will tell you in the console if there is a update. Update scratchattach with `npm update scratchattach-node`*
-
-
 
 # Get your Session ID
 
